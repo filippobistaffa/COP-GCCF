@@ -1,0 +1,6 @@
+[submodule "uthash"]
+	path = uthash
+	url = https://github.com/troydhanson/uthash
+[submodule "ui/gs-netstream"]
+	path = ui/gs-netstream
+	url = https://github.com/graphstream/gs-netstream

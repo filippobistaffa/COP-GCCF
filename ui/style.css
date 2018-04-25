@@ -1,0 +1,17 @@
+node { 
+	size: 20px;
+	fill-color: #FFFFFF;
+	stroke-width: 2px;
+	stroke-mode: plain;
+	shadow-mode: plain;
+	shadow-width: 0px;
+	shadow-color: #CCC;
+	shadow-offset: 3px, -3px;	
+	text-style: bold;
+}
+
+node.root {
+	size: 30px;
+	stroke-width: 2px;
+	text-size: 12;
+}

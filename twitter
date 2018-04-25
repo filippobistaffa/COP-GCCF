@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+if [ "$#" -eq 0 ]
+then
+	echo "Compiles CUCOP using Twitter as graph"
+	echo "Usage: ./twitter N SEED EXENAME"
+	exit
+fi
+
+outname="graph.h"
+basename="net/twitter-2010"
+wg="wg"
+
+java -Xmx4000m -cp .:$wg/* ReduceGraph $basename $1 $2 > $outname
+TWITTER="-DTWITTER" OUT="$3" make cuda -j

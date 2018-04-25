@@ -1,0 +1,12 @@
+ui/Receiver.class
+ui/clear
+ui/libnetstream.a
+dep
+cobj
+copgccf
+
+*.degree
+*.order
+*.wcsp
+*.txt
+*.dot
